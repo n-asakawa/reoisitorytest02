@@ -20,3 +20,17 @@
   background: url("../images/floatWindow.png");
   margin: 0;
 }
+#floatWindow dl dt {
+  height: 25px;
+  line-height: 25px;
+  text-indent: 1em;
+  color: white;
+  font-weight: bold;
+  cursor: move;
+}
+#floatWindow dl dd {
+  margin: 0;
+  padding: 2em;
+  line-height: 1.5;
+  text-indent: 1em;
+}
