@@ -16,6 +16,7 @@ $(function(){
     // ドラッグ処理の追加
     // フローティングウィンドウ上のマウス座標を求める
     // ※data(name,value):データをHTMLの要素(ここでは#floatWindow)に関連付けて一時的に保存しておく命令
+    // 「e」はイベントオブジェクトを受け取るための引数。JavaScriptのイベントオブジェクト参照。
     $("#floatWindow").data("clickPointX", e.pageX - $("#floatWindow").offset().left).data("clickPointY", e.pageY - $("#floatWindow").offset().top);
     $(document).mousemove(function(e){
       // カーソル移動に応じてウィンドウの位置を変更する処理
